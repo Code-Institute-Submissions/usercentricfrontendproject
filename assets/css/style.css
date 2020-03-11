@@ -2,6 +2,26 @@
 
 /* -----------------------------------Colours */
 
+/* -----------------------------------Header */
+
+.coverpicture {
+    background: url("../images/20170501_185732.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.title {
+    align-content: right;
+    color: #ffffe4;
+    padding-top: 25px;
+    font: Nanum, 400;
+}
+
+.nav-link {
+    color: #ffffe4;
+}
 
 
 /* -----------------------------------Footer */
@@ -18,5 +38,6 @@ footer {
 
 .social-links i {
     color: #ffffe4;
+    font-size: 30px;
 }
 
