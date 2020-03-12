@@ -20,17 +20,21 @@
     padding-top: 25px;
 }
 
+.title:hover {
+    color: #2a501d;
+}
+
 
 .nav-link {
     color: #ffffe4;
     float: right;
 }
 
-.nav-pills .active {
-    background-color: #2a501d;
+.a.nav-link.active{
+    background: #2a501d;
 }
 
-.nav-item:hover {
+.nav-link:hover {
     color: #2a501d;
 }
 
@@ -50,5 +54,6 @@ footer {
 .social-links i {
     color: #ffffe4;
     font-size: 30px;
+    text-align: left;
 }
 
