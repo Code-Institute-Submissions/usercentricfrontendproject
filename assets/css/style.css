@@ -52,9 +52,32 @@ footer {
 .social-links i {
     color: #ffffe4;
     font-size: 30px;
-    text-align: left;
 }
 
 .social-links i:hover {
     color: #cbae82;
 }
+
+.footerright {
+    text-align: right;
+}
+
+/* -----------------------------------Contact Page */
+
+.contactform {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-content: center;
+}
+
+.btn-primary {
+    color: #567d46;
+    background-color: #ffffe4;
+    border: #cbae82;
+    align-content: center;
+}
+
+.btn-primary:hover {
+    background-color: #ffe0b2;
+}
+
