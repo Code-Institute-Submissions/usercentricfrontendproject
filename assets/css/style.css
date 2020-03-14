@@ -5,7 +5,7 @@
 /* -----------------------------------Header */
 
 .coverpicture {
-    background: url("../images/20170501_185732.jpg");
+    background: url("../images/20180620_200702.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,22 +21,20 @@
 }
 
 .title:hover {
-    color: #2a501d;
+    color: #cbae82;
 }
 
 
 .nav-link {
     color: #ffffe4;
     float: right;
-}
-
-.a.nav-link.active{
-    background: #2a501d;
+    padding-top: 25px;
 }
 
 .nav-link:hover {
-    color: #2a501d;
+    color: #cbae82;
 }
+
 
 
 /* -----------------------------------Footer */
@@ -57,3 +55,6 @@ footer {
     text-align: left;
 }
 
+.social-links i:hover {
+    color: #cbae82;
+}
