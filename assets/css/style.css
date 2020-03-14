@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+    margin-bottom: 10px;
 }
 
 
@@ -43,6 +44,7 @@ footer {
     background-color: #567d46;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-top: 10px;
 }
 
 .address {
@@ -62,6 +64,26 @@ footer {
     text-align: right;
 }
 
+/* -----------------------------------Gallery Page */
+
+.photo {
+    clear: both;
+    column-count: 2;
+    column-gap: 5px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo .photofix {
+    transform: rotate(180deg);
+    clear: inherit;
+    column-gap: inherit;
+}
+
+
+
 /* -----------------------------------Contact Page */
 
 .contactform {
@@ -74,10 +96,17 @@ footer {
     color: #567d46;
     background-color: #ffffe4;
     border: #cbae82;
-    align-content: center;
 }
 
 .btn-primary:hover {
     background-color: #ffe0b2;
+}
+
+/* -----------------------------------Media Queries */
+
+@media screen and (min-width: 960px) {
+    .photo {
+        columns: 3;
+    }
 }
 
