@@ -12,18 +12,27 @@
     min-height: 360px;
     margin-bottom: 10px;
 }
+/* -----------------------------------borrowed code https://www.w3schools.com/css/css_image_transparency.asp */
+div.transbox {
+  clear: both;
+  padding-top: 25px;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid #567d56;
+  opacity: 0.6;
+}
 
-
-.title {
-    float: left;
-    color: #ffffe4;
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+    color: #567d46;
     letter-spacing: 10px;
     padding-top: 25px;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
 }
-
-.title:hover {
-    color: #cbae82;
-}
+/* -----------------------------------End */
 
 
 .nav-link {
@@ -37,7 +46,6 @@
 }
 
 
-
 /* -----------------------------------Footer */
 
 footer {
@@ -49,11 +57,14 @@ footer {
 
 .address {
     color: #ffffe4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 .social-links i {
     color: #ffffe4;
     font-size: 30px;
+    padding-top: 30px;
 }
 
 .social-links i:hover {
@@ -61,8 +72,11 @@ footer {
 }
 
 .footerright {
-    text-align: right;
+    text-align: center;
 }
+
+/* -----------------------------------For Sale Page */
+
 
 /* -----------------------------------Gallery Page */
 
@@ -106,6 +120,14 @@ footer {
 /* -----------------------------------Media Queries */
 
 @media screen and (min-width: 960px) {
+    .address {
+        text-align: left;
+    }
+    
+    .footerright{
+        text-align: right;
+    }
+
     .photo {
         columns: 3;
     }
