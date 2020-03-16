@@ -25,6 +25,7 @@ div.transbox {
 div.transbox p {
   margin: 5%;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
     color: #567d46;
     letter-spacing: 10px;
     padding-top: 25px;
@@ -34,11 +35,16 @@ div.transbox p {
 }
 /* -----------------------------------End */
 
+.navbar-light {
+    background-color: #567d46;
+}
+.navbar-expand-lg {
+    padding: 0;
+    margin: 0;
+}
 
-.nav-link {
-    color: #ffffe4;
-    float: right;
-    padding-top: 25px;
+.nav-item.a.nav-link {
+    color: #ffe0b2;
 }
 
 .nav-link:hover {
@@ -130,6 +136,9 @@ footer {
 
     .photo {
         columns: 3;
+    }
+    div.transbox p {
+        font-size: 75px;
     }
 }
 
