@@ -46,9 +46,9 @@ div.transbox p {
     list-style-type: none;
     font-size: 90%;
     font-family: 'Open Sans', sans-serif;
-    float: right;
     font-weight: bold;
-    padding-top: 15px;
+    float: right;
+    padding-left: 25px;
 }
 
 .nav-link:hover {
@@ -94,10 +94,26 @@ footer {
 
 /* -----------------------------------For Sale Page */
 
+#flowers,
+#livestock {
+    margin: 10px;
+}
+
+#flowers {
+    border-top: 2px solid #567d46;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 #flowertype {
     text-align: right;
 }
 
+.fa-clipboard-check,
+.fa-seedling {
+    font-size: 25px;
+    color: #567d46;
+    margin: 8px;
+}
 /* -----------------------------------Gallery Page */
 
 .photo {
@@ -154,5 +170,15 @@ footer {
     div.transbox p {
         font-size: 75px;
     }
+.nav-item, a, .nav-link {
+    color: #ffffe4;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 90%;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    font-weight: bold;
+    padding-top: 15px;
+
 }
 
