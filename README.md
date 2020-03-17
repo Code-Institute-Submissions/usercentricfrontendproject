@@ -1,35 +1,50 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+User Centric Front End Development Milestone Project
 
-Welcome cherylhaz,
+This project is designed as a marketing tool for our own farm.  This website will allow us to showcase what we have on offer and be a 
+method for prospective buyers to contact us.  The aim is to highlight the selling features of our products, both livestock and flowers.  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+UX
+This site was designed for users looking for additional information on our products to be able to find it easily.  It is also a way for
+potential customers to discover what we have to offer. The information is laid out simply and is thorough with multiple ways for someone
+to contact us to find out more.  The site is desinged to provide a comprehensive overview.
 
-## Gitpod Reminders
+Wireframes
+The mockups for the project are available at: usercentricfrontendproject/assets/mockups/Milestone%20Project%201%20Mockup.pdf
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Features
+Existing Features
+        Feature 1 - Users can directly contact us through the Contact page in an easy to use manner.
+        Feature 2 - Users can connect with our social networks through the links in the footer.
+        Feature 3 - Users can get a visual representation of what we have on offer through the For Sale and Gallery pages.  
 
-`python3 -m http.server`
+Features to Implement
+    A few features that would need to be added in the future.  
+        The contact form needs to be functional. 
+        The for sale page will need to list individual animals that we are selling with photos, stats etc.
+        Videos would be added as part of the gallery. 
+        A blog or news feature will also be added to provide information and updates on the site. 
 
-A blue button should appear to click: *Expose*,
+Technologies Used
+ HTML
+    The basis of the project was to use HTML and CSS to complete a website.
+ CSS
+    The basis of the project was to use CSS with HTML to complete a website.  
+ Bootstrap
+    Bootstrap was used for features including the cover title, nav bar and contact form.  
+    https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+ Font Awesome
+    Font Awesome was used for the social link icons as well as the nav bar icon on mobile.
+    https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Testing
 
-A blue button should appear to click: *Expose*,
+Deployment
 
-Another blue button should appear to click: *Open Browser*.
+Credits
+Content and Media
+ The content and photos used on this site were obtained from my personal collection and are original works created by me. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+Acknowledgements
+    Inspiration for this project was taken from the Code Institute's Love Running mini-project. 
+    Thank you to my mentor Akshat Garg for providing ideas and assistance in working on this project.   
