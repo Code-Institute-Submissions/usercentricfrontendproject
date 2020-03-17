@@ -81,6 +81,13 @@ footer {
     text-align: center;
 }
 
+/* -----------------------------------Home Page */
+
+.aboutus p {
+    font-family: "Nanum", sans-serif;
+    margin: 0 25px 0 25px;
+}
+
 /* -----------------------------------For Sale Page */
 
 
