@@ -113,6 +113,14 @@ footer {
     color: #567d46;
     margin: 8px;
 }
+
+.stats h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.stats li {
+    list-style-type: square;
+}
 /* -----------------------------------Gallery Page */
 
 .photo {
