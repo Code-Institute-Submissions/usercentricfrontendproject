@@ -40,14 +40,13 @@ div.transbox p {
 }
 /* -----------------------------------End */
 
-.nav-item, a, .nav-link {
+.nav-link {
     color: #ffffe4;
     text-decoration: none;
     list-style-type: none;
     font-size: 90%;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    float: right;
     padding-left: 25px;
 }
 
