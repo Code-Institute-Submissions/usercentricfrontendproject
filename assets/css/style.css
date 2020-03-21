@@ -3,7 +3,7 @@
 /* -----------------------------------Colours */
 body {
     font-family: "Nanum", sans-serif;
-    font-size: 25px;
+    font-size: 18px;
 }
 /* -----------------------------------Header */
 
@@ -13,7 +13,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    clear: both;
 }
 /* -----------------------------------borrowed code https://www.w3schools.com/css/css_image_transparency.asp */
 div.transbox {
@@ -40,14 +41,21 @@ div.transbox p {
 }
 /* -----------------------------------End */
 
+.navbar {
+    background: #567d46;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+
 .nav-link {
     color: #ffffe4;
     text-decoration: none;
     list-style-type: none;
-    font-size: 90%;
+    font-size: 60%;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 .nav-link:hover {
@@ -59,21 +67,25 @@ div.transbox p {
 
 footer {
     background-color: #567d46;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
 }
 
 .address {
     color: #ffffe4;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    padding-left: 25px;
+    line-height: 50px;
+    margin-top: 25px;
 }
 
 .social-links i {
     color: #ffffe4;
     font-size: 30px;
-    padding-top: 30px;
+    padding-right: 25x;
+    line-height: 50px;
 }
 
 .social-links i:hover {
@@ -82,6 +94,10 @@ footer {
 
 .footerright {
     text-align: center;
+}
+
+.footerright ul {
+    display: inline;
 }
 
 /* -----------------------------------Home Page */
@@ -168,7 +184,7 @@ footer {
     }
     
     .footerright{
-        text-align: right;
+        text-align: center;
     }
 
     .photo {
@@ -185,7 +201,6 @@ footer {
     font-family: 'Open Sans', sans-serif;
     float: right;
     font-weight: bold;
-    padding-top: 15px;
 
 }
 
