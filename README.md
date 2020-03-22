@@ -47,6 +47,10 @@ would have the toggler menu.  This is also why so many versions have changes to 
 
 The contact form is not fully functional as it does not link up to any back end database.  
 
+All code was run though a validation tool to catch any issues before deployment.  
+
+After deployment, the entire site was tested again.  
+
 
 ## Deployment ##
 The site was deployed as directed in the project guidelines.  
