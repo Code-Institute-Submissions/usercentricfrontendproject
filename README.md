@@ -55,6 +55,9 @@ After deployment, the entire site was tested again.
 ## Deployment ##
 The site was deployed as directed in the project guidelines.  
 
+Testing was done after the project was deployed and an issue was found with the facebook link in the footer.  The orignial link was to my personal
+page as we don't have a business page.  This doesn't seem to work when I am not logged in, in the same browser so it was removed. 
+
 ## Credits ###
 **Content and Media**
  The content and photos used on this site were obtained from my personal collection and are original works created by me. 
