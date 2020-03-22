@@ -102,9 +102,19 @@ footer {
 
 /* -----------------------------------Home Page */
 
+.aboutus .row {
+    padding-top: 15px;
+}
+
 .aboutus p {
     font-family: "Nanum", sans-serif;
     margin: 0 25px 0 25px;
+}
+
+.indexphoto {
+        max-width: 70%;
+        float: left;
+        margin: 15px 1px 15px 50px;
 }
 
 /* -----------------------------------For Sale Page */
@@ -189,7 +199,12 @@ footer {
     .footerright{
         text-align: center;
     }
-
+.indexphoto {
+        max-width: 100%;
+        margin-left: 10px;
+        float: left;
+        margin: 4px 10px 0px 0px; 
+}
     .photo {
         columns: 3;
     }
