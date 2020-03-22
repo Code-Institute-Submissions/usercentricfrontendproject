@@ -137,6 +137,9 @@ footer {
 .stats li {
     list-style-type: square;
 }
+ #forsalephotos img {
+     max-width: 200px;
+ }
 /* -----------------------------------Gallery Page */
 
 .photo {
@@ -201,6 +204,10 @@ footer {
     font-family: 'Open Sans', sans-serif;
     float: right;
     font-weight: bold;
-
+}
+ #forsalephotos img {
+     max-width: 200px;
+     margin: 25px 25px 25px 25px;
+ }
 }
 
