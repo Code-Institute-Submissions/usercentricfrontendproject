@@ -1,228 +1,254 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800|Open+Sans:300i,400,400i,600,600i,700,700i');
 
 /* -----------------------------------Colours */
+
 body {
-    font-family: "Nanum", sans-serif;
-    font-size: 18px;
+	font-family: "Nanum", sans-serif;
+	font-size: 18px;
 }
+
+
 /* -----------------------------------Header */
 
 .coverpicture {
-    background: url("../images/cowsinfield.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    margin-bottom: 50px;
-    clear: both;
+	background: url("../images/cowsinfield.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 360px;
+	margin-bottom: 50px;
+	clear: both;
 }
+
+
 /* -----------------------------------borrowed code https://www.w3schools.com/css/css_image_transparency.asp */
+
 div.transbox {
-  clear: both;
-  padding-top: 25px;
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid #567d56;
-  opacity: 0.6;
+	clear: both;
+	padding-top: 25px;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid #567d56;
+	opacity: 0.6;
 }
 
 div.transbox p {
-  clear: both;
-  margin: 5%;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-    color: #567d46;
-    opacity: 1;
-    letter-spacing: 10px;
-    padding-top: 25px;
-    font-size: 35px;
-    text-decoration: none;
-    text-align: center;
+	clear: both;
+	margin: 5%;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: #567d46;
+	opacity: 1;
+	letter-spacing: 10px;
+	padding-top: 25px;
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
 }
+
+
 /* -----------------------------------End */
 
 .navbar {
-    background: #567d46;
-    padding: 0;
-    margin: 0;
-    line-height: 25px;
+	background: #567d46;
+	padding: 0;
+	margin: 0;
+	line-height: 25px;
 }
 
 .nav-link {
-    color: #ffffe4;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 60%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    padding-left: 30px;
+	color: #ffffe4;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 65%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 .nav-link:hover {
-    color: #cbae82;
+	color: #cbae82;
 }
 
 
 /* -----------------------------------Footer */
 
 footer {
-    background-color: #567d46;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 50px;
+	background-color: #567d46;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 50px;
 }
 
 .address {
-    color: #ffffe4;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding-left: 25px;
-    line-height: 50px;
-    margin-top: 25px;
+	color: #ffffe4;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	padding-left: 25px;
+	line-height: 50px;
+	margin-top: 25px;
+	text-align: center;
 }
 
 .social-links i {
-    color: #ffffe4;
-    font-size: 30px;
-    padding-right: 25x;
-    line-height: 50px;
+	color: #ffffe4;
+	font-size: 30px;
+	padding-right: 25x;
+	line-height: 50px;
 }
 
 .social-links i:hover {
-    color: #cbae82;
+	color: #cbae82;
 }
 
 .footerright {
-    text-align: center;
+	text-align: center;
 }
 
 .footerright ul {
-    display: inline;
+	display: inline;
 }
+
 
 /* -----------------------------------Home Page */
 
 .aboutus .row {
-    padding-top: 15px;
+	padding-top: 15px;
 }
 
 .aboutus p {
-    font-family: "Nanum", sans-serif;
-    margin: 0 25px 0 25px;
+	font-family: "Nanum", sans-serif;
+	margin: 0 25px 0 25px;
 }
 
 .indexphoto {
-        max-width: 70%;
-        float: left;
-        margin: 15px 1px 15px 50px;
+	max-width: 70%;
+	float: left;
+	margin: 15px 1px 15px 50px;
 }
+
 
 /* -----------------------------------For Sale Page */
 
 #flowers,
 #livestock {
-    margin: 10px;
+	margin: 10px;
 }
 
 #flowers {
-    border-top: 2px solid #567d46;
-    margin-top: 25px;
-    margin-bottom: 25px;
+	border-top: 2px solid #567d46;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
+
 #flowertype {
-    text-align: right;
+	text-align: right;
 }
 
 .fa-clipboard-check,
 .fa-seedling {
-    font-size: 25px;
-    color: #567d46;
-    margin: 8px;
+	font-size: 25px;
+	color: #567d46;
+	margin: 8px;
 }
 
 .stats h4 {
-    text-align: center;
-    text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
 }
+
 .stats li {
-    list-style-type: square;
+	list-style-type: square;
 }
- #forsalephotos img {
-     max-width: 200px;
- }
+
+.stats li a {
+	color: inherit
+}
+
+#forsalephotos img {
+	max-width: 200px;
+	padding: 2px 2px 2px 2px;
+}
+
+#space {
+	margin-top: 25px;
+}
+
+
 /* -----------------------------------Gallery Page */
 
 .photo {
-    clear: both;
-    column-count: 2;
-    column-gap: 0;
+	clear: both;
+	column-count: 2;
+	column-gap: 0;
 }
 
 .photo img {
-    width: 100%;
-    border: 2px solid #fff;
+	width: 100%;
+	border: 2px solid #fff;
 }
 
 .photo .photofix {
-    transform: rotate(180deg);
-    clear: inherit;
-    column-gap: inherit;
+	transform: rotate(180deg);
+	clear: inherit;
+	column-gap: inherit;
 }
-
 
 
 /* -----------------------------------Contact Page */
 
 .contactform {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    align-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	align-content: center;
 }
 
 .btn-primary {
-    color: #567d46;
-    background-color: #ffffe4;
-    border: #cbae82;
+	color: #567d46;
+	background-color: #ffffe4;
+	border: #cbae82;
 }
 
 .btn-primary:hover {
-    background-color: #ffe0b2;
+	background-color: #ffe0b2;
 }
+
 
 /* -----------------------------------Media Queries */
 
 @media screen and (min-width: 960px) {
-    .address {
-        text-align: left;
-    }
-    
-    .footerright{
-        text-align: center;
-    }
-.indexphoto {
-        max-width: 100%;
-        margin-left: 10px;
-        float: left;
-        margin: 4px 10px 0px 0px; 
+	.address {
+		text-align: left;
+	}
+	.footerright {
+		text-align: center;
+	}
+	.indexphoto {
+		max-width: 100%;
+		margin-left: 10px;
+		float: left;
+		margin: 4px 10px 0px 0px;
+	}
+	.photo {
+		columns: 3;
+	}
+	div.transbox p {
+		font-size: 75px;
+	}
+	.nav-item,
+	a,
+	.nav-link {
+		color: #ffffe4;
+		text-decoration: none;
+		list-style-type: none;
+		font-size: 90%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+	}
+	.stats li a {
+		color: inherit;
+	}
+	#forsalephotos img {
+		max-width: 200px;
+		margin: 25px 25px 25px 25px;
+	}
 }
-    .photo {
-        columns: 3;
-    }
-    div.transbox p {
-        font-size: 75px;
-    }
-.nav-item, a, .nav-link {
-    color: #ffffe4;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 90%;
-    font-family: 'Open Sans', sans-serif;
-    float: right;
-    font-weight: bold;
-}
- #forsalephotos img {
-     max-width: 200px;
-     margin: 25px 25px 25px 25px;
- }
-}
-
