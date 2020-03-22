@@ -9,7 +9,7 @@ potential customers to discover what we have to offer. The information is laid o
 to contact us to find out more.  The site is desinged to provide a comprehensive overview.
 
 ## Wireframes ##
-The mockups for the project are available at [title] (usercentricfrontendproject/assets/mockups/Milestone%20Project%201%20Mockup.pdf)
+The mockups for the project are available at usercentricfrontendproject/assets/mockups/Milestone%20Project%201%20Mockup.pdf
 
 ## Features ##
 **Existing Features**
@@ -31,10 +31,10 @@ The mockups for the project are available at [title] (usercentricfrontendproject
     The basis of the project was to use CSS with HTML to complete a website.  
 **Bootstrap**
     Bootstrap was used for features including the cover title, nav bar and contact form.  
-    [title](https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css)
+    [Bootstrap link](https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css)
  **Font Awesome**
     Font Awesome was used for the social link icons as well as the nav bar icon on mobile.
-    [title](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
+    [Font Awesome Link](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
 
 
 ## Testing ##
